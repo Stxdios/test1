@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.poopytestmod.init.PoopytestmodModItems;
+import net.mcreator.poopytestmod.init.PoopytestmodModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +51,7 @@ public class PoopytestmodMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		PoopytestmodModBlocks.REGISTRY.register(bus);
 		PoopytestmodModItems.REGISTRY.register(bus);
 
 	}

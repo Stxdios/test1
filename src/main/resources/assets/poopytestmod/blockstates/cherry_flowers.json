@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "poopytestmod:block/cherry_flowers"
+    },
+    "powered=true": {
+      "model": "poopytestmod:block/cherry_flowers_down"
+    }
+  }
+}

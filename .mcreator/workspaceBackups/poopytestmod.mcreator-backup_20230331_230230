@@ -1,0 +1,80 @@
+{
+  "mod_elements": [
+    {
+      "name": "Funne",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poopytestmod/item/FunneItem.java",
+          "src/main/resources/assets/poopytestmod/models/item/funne.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryFlowers",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_flowers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poopytestmod/block/CherryFlowersBlock.java",
+          "src/main/resources/assets/poopytestmod/models/block/cherry_flowers_open.json",
+          "src/main/resources/assets/poopytestmod/models/item/cherry_flowers.json",
+          "src/main/resources/assets/poopytestmod/blockstates/cherry_flowers.json",
+          "src/main/resources/assets/poopytestmod/models/block/cherry_flowers_top.json",
+          "src/main/resources/assets/poopytestmod/models/block/cherry_flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryBlossom",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_blossom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poopytestmod/models/item/cherry_blossom.json",
+          "src/main/java/net/mcreator/poopytestmod/item/CherryBlossomItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.poopytestmod.cherry_blossom": "Cherry Blossom",
+      "item.poopytestmod.funne": "Funne",
+      "block.poopytestmod.cherry_flowers": "Cherry Flowers"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "poopytestmod",
+    "modName": "poopytestmod",
+    "version": "1.0.0",
+    "author": "benib, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.poopytestmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
